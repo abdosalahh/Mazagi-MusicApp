@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/playsong_bg"
+    tools:context=".SearchActivity">
+
+
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#6FFFFFFF"
+        android:hint="Search With Song Name Or Artist"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+
+        />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_menu"
+        android:layout_marginTop="7dp"
+
+
+
+        />
+
+    <ListView
+        android:id="@+id/listViewSongs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchBox"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10sp"
+        android:padding="8dp" />
+
+</RelativeLayout>

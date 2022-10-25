@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<font android:fontStyle="normal"
+      android:font="@font/optios_font"
+      android:fontWeight="400"
+
+      app:fontStyle="normal"
+      app:font="@font/optios_font"
+      app:fontWeight="400"/>
+
+</font-family>
